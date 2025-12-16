@@ -1,1 +1,11 @@
+Alteryx Validation Workflow Description
 
+1. Input trade data from front-office and back-office sources
+2. Apply mandatory field checks (Trade ID, Notional, Currency)
+3. Apply business validation rules:
+   - Notional difference > tolerance → Flag as break
+   - Currency mismatch → Flag as break
+   - Settlement date earlier than trade date → Flag as error
+4. Classify breaks by type
+5. Output exception report for reconciliation team
+  
