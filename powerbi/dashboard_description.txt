@@ -1,1 +1,8 @@
 
+Power BI Dashboard Overview
+
+1. Total trades vs reconciliation breaks
+2. Breaks by type (missing, amount mismatch, currency mismatch)
+3. Break trend over time
+4. Top counterparties by break count
+5. SLA and aging analysis
